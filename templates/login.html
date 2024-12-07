@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN</title>
+    <style>
+        input{
+            padding:5px;
+            margin:5px;
+            border-radius: 5px;
+    
+        }
+        form{
+            border:3px solid black;
+            margin-left: 300px;
+            margin-right: 300px;
+            background-color: antiquewhite;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        button{
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>This is login page</h1>
+    <form action="" align="center">
+        <h1>LOGIN FORM</h1>
+        <label for="username">Name</label>
+        <input type="name" placeholder="Enter name"><br>
+        <label for="password">Email</label>
+        <input type="email" placeholder="Enter email"><br>
+        <label for="gender">gender</label>
+        <input type="radio" id="male" value="male">
+        <label for="gender">Male</label>
+        <input type="radio" id="male" value="male">
+        <label for="gender">Female</label><br>
+        <button>submit</button>
+     </form>
+     <a href="{% url 'registration' %}"><h2>click here to registration page</h2></a>
+</center>
+</body>
+</html>
+    
